@@ -5,7 +5,7 @@ Write-Host "Installing Should I Build? + companion skills..." -ForegroundColor C
 Write-Host ""
 
 Write-Host "[1/3] should-i-build..."
-npx skills add YOUR_GITHUB_USERNAME/ShouldIBuild --skill should-i-build -g -y
+npx skills add Endokelp/ShouldIBuild --skill should-i-build -g -y
 
 Write-Host "[2/3] last30days (community signal)..."
 npx skills add mvanhorn/last30days-skill --skill last30days -g -y

@@ -1,7 +1,7 @@
 {
   "skills": [
     {
-      "repository": "YOUR_GITHUB_USERNAME/ShouldIBuild",
+      "repository": "Endokelp/ShouldIBuild",
       "skill": "should-i-build",
       "global": true
     },

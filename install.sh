@@ -6,7 +6,7 @@ echo "Installing Should I Build? + companion skills..."
 echo ""
 
 echo "[1/3] should-i-build..."
-npx skills add YOUR_GITHUB_USERNAME/ShouldIBuild --skill should-i-build -g -y
+npx skills add Endokelp/ShouldIBuild --skill should-i-build -g -y
 
 echo "[2/3] last30days (community signal)..."
 npx skills add mvanhorn/last30days-skill --skill last30days -g -y

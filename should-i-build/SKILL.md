@@ -8,8 +8,8 @@ description: >-
   my idea", "is there demand for", "market validate", "vibe check my idea", or
   "do a should-i-build on this". Not for technical feasibility — demand only.
 disable-model-invocation: true
-homepage: https://github.com/YOUR_GITHUB_USERNAME/ShouldIBuild
-repository: https://github.com/YOUR_GITHUB_USERNAME/ShouldIBuild
+homepage: https://github.com/Endokelp/ShouldIBuild
+repository: https://github.com/Endokelp/ShouldIBuild
 ---
 
 # Should I Build?
