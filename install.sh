@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
-# Should I Build? — install all 3 required skills
+ï»¿#!/usr/bin/env bash
+# Should I Build? ï¿½ install all 3 required skills
 set -e
 
 echo "Installing Should I Build? + companion skills..."
 echo ""
 
 echo "[1/3] should-i-build..."
-npx skills add Endokelp/ShouldIBuild --skill should-i-build -g -y
+npx skills add Endokelp/Should-I-build --skill should-i-build -g -y
 
 echo "[2/3] last30days (community signal)..."
 npx skills add mvanhorn/last30days-skill --skill last30days -g -y

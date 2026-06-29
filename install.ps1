@@ -1,11 +1,11 @@
-# Should I Build? — install all 3 required skills (Windows PowerShell)
+ï»¿# Should I Build? ï¿½ install all 3 required skills (Windows PowerShell)
 $ErrorActionPreference = "Stop"
 
 Write-Host "Installing Should I Build? + companion skills..." -ForegroundColor Cyan
 Write-Host ""
 
 Write-Host "[1/3] should-i-build..."
-npx skills add Endokelp/ShouldIBuild --skill should-i-build -g -y
+npx skills add Endokelp/Should-I-build --skill should-i-build -g -y
 
 Write-Host "[2/3] last30days (community signal)..."
 npx skills add mvanhorn/last30days-skill --skill last30days -g -y

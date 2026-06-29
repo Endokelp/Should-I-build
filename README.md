@@ -94,17 +94,17 @@ One command installs all three required skills:
 
 **macOS / Linux:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Endokelp/ShouldIBuild/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.sh)
 ```
 
 **Windows PowerShell:**
 ```powershell
-irm https://raw.githubusercontent.com/Endokelp/ShouldIBuild/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.ps1 | iex
 ```
 
 **Manual (or if you prefer individual control):**
 ```bash
-npx skills add Endokelp/ShouldIBuild --skill should-i-build -g -y
+npx skills add Endokelp/Should-I-build --skill should-i-build -g -y
 npx skills add mvanhorn/last30days-skill --skill last30days -g -y
 npx skills add 199-biotechnologies/claude-deep-research-skill --skill deep-research -g -y
 ```
