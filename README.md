@@ -1,8 +1,8 @@
-# Should I Build?
+﻿# Should I Build?
 
 > *Stop guessing. Get a verdict.*
 
-A multi-agent market validation skill for [Claude Code](https://claude.ai/code) and [Cursor](https://cursor.com). You describe your idea. It deploys 6 parallel research analysts — community pain, search demand, competitive landscape, market size, willingness to pay, and market timing — then verifies the contested facts and scores everything against a 7-pillar framework.
+A multi-agent market validation skill for [Claude Code](https://claude.ai/code) and [Cursor](https://cursor.com). You describe your idea. It deploys 6 parallel research analysts - community pain, search demand, competitive landscape, market size, willingness to pay, and market timing - then verifies the contested facts and scores everything against a 7-pillar framework.
 
 You get a **BUILD / CONDITIONAL / PIVOT / STOP** verdict. With receipts.
 
@@ -10,7 +10,7 @@ You get a **BUILD / CONDITIONAL / PIVOT / STOP** verdict. With receipts.
 
 ## The problem this solves
 
-Most founders validate ideas by asking their friends, posting in a Slack group, or — worst of all — just building. By the time they realize there's no real demand, they've spent months and real money.
+Most founders validate ideas by asking their friends, posting in a Slack group, or - worst of all - just building. By the time they realize there's no real demand, they've spent months and real money.
 
 Real validation requires checking Reddit for genuine pain threads, auditing competitor reviews for gaps, estimating market size bottom-up, testing willingness to pay against existing tools, and cross-checking all of it. Done properly, that's a week of research. This skill does it in minutes.
 
@@ -19,44 +19,44 @@ Real validation requires checking Reddit for genuine pain threads, auditing comp
 ## Example output
 
 ```
-## Should I Build? — Weekly MRR Tracker for Solo Founders
+## Should I Build? - Weekly MRR Tracker for Solo Founders
 
-**Verdict: CONDITIONAL** — 64% confidence
+**Verdict: CONDITIONAL** - 64% confidence
 
 ### Scorecard
 | Pillar                 | /5 | Key Evidence                                              |
 |------------------------|----|-----------------------------------------------------------|
-| Problem Clarity        |  4 | r/SaaS, r/microSaaS — 40+ threads on MRR tracking pain   |
+| Problem Clarity        |  4 | r/SaaS, r/microSaaS - 40+ threads on MRR tracking pain   |
 | Target Customer        |  4 | Solo founders / indie hackers, self-serve budget          |
 | Demand Signal          |  3 | Baremetrics exists ($50/mo) but overkill; no lightweight  |
 | Differentiation        |  3 | Gap confirmed: all tools require Stripe connection        |
 | Execution Feasibility  |  4 | MVP scope < 4 weeks, no external API dependencies         |
-| Distribution Readiness |  2 | No tested channel yet — r/indiehackers is plausible       |
+| Distribution Readiness |  2 | No tested channel yet - r/indiehackers is plausible       |
 | Monetization Viability |  3 | $9–$19/mo is credible; WTP confirmed by Baremetrics comps |
 **Total: 23/35**
 
 ### Top Green Flags
-1. Baremetrics charges $50/mo for features most solo founders never use — [g2.com/baremetrics reviews](https://g2.com)
-2. 6 Reddit threads asking "is there a simpler MRR tracker?" in the last 90 days — [r/SaaS](https://reddit.com/r/SaaS)
+1. Baremetrics charges $50/mo for features most solo founders never use - [g2.com/baremetrics reviews](https://g2.com)
+2. 6 Reddit threads asking "is there a simpler MRR tracker?" in the last 90 days - [r/SaaS](https://reddit.com/r/SaaS)
 3. "No Stripe required" confirmed as unmet need in 3 competitor 2-star reviews
 
 ### Top Red Flags
 | Flag                                         | Severity |
 |----------------------------------------------|----------|
 | No tested acquisition channel yet            | HIGH     |
-| Market is small ($80M TAM) — lifestyle, not venture | MEDIUM   |
+| Market is small ($80M TAM) - lifestyle, not venture | MEDIUM   |
 | Founders often track in Notion for free      | MEDIUM   |
 
 ### Kill Condition
-Painkiller test: **PASS** — paid alternatives exist ($50–$200/mo), manual workarounds active
+Painkiller test: **PASS** - paid alternatives exist ($50–$200/mo), manual workarounds active
 
 ### Recommended Next Experiment
 Post a bare landing page to r/indiehackers with "free beta" offer. 
 Target: 50 signups in 7 days without paid ads. If yes → build. If no → distribution is the real problem.
 
 ### Comparable Companies
-- Plausible Analytics (simple GA alternative) — validated "less features, lower price" positioning
-- Potion (simple Notion website builder) — same "anti-complexity" thesis, profitable
+- Plausible Analytics (simple GA alternative) - validated "less features, lower price" positioning
+- Potion (simple Notion website builder) - same "anti-complexity" thesis, profitable
 
 ### Evidence Gaps
 - Conversion rate from free → paid unknown; run a pricing page experiment
@@ -145,7 +145,7 @@ should i build this: [describe your idea in 1–3 sentences]
 
 **Good:**
 ```
-/sib A browser extension that auto-fills LinkedIn job applications using your resume —
+/sib A browser extension that auto-fills LinkedIn job applications using your resume -
 targeting developers in FAANG job search mode who apply to 30+ jobs per week.
 ```
 
@@ -163,11 +163,11 @@ targeting developers in FAANG job search mode who apply to 30+ jobs per week.
 | 30–35 | **BUILD** | Ship the smallest possible version this week. |
 | 22–29 | **CONDITIONAL** | One or two pillars are weak. The report names exactly which gap to close and how. Run that experiment first. |
 | 15–21 | **PIVOT** | The problem may be real; the approach, ICP, or pricing is wrong. Adjust one variable and re-run. |
-| < 15 | **STOP** | Fundamental demand failure. "Stop" is a win — it just saved you months. |
+| < 15 | **STOP** | Fundamental demand failure. "Stop" is a win - it just saved you months. |
 
 ### The kill condition
 
-If the **Demand Signal** pillar scores 0 or 1 — meaning no evidence of anyone paying for any partial solution — the verdict is automatically **STOP**, regardless of total score.
+If the **Demand Signal** pillar scores 0 or 1 - meaning no evidence of anyone paying for any partial solution - the verdict is automatically **STOP**, regardless of total score.
 
 A beautiful product in a vitamin market is still a vitamin.
 
@@ -177,10 +177,10 @@ A beautiful product in a vitamin market is still a vitamin.
 
 | Skill | Role in this pipeline | Why it's bounded here |
 |---|---|---|
-| `last30days` | Community Signal Analyst — pulls fresh 30-day cross-platform social signal | Multi-platform (Reddit + X + HN + YouTube + TikTok) in one call; reserved to avoid duplication |
-| `deep-research` | Claim Verifier — Quick mode on 3–5 contested claims before scoring | Prevents verdict from being built on hallucinated market numbers |
+| `last30days` | Community Signal Analyst - pulls fresh 30-day cross-platform social signal | Multi-platform (Reddit + X + HN + YouTube + TikTok) in one call; reserved to avoid duplication |
+| `deep-research` | Claim Verifier - Quick mode on 3–5 contested claims before scoring | Prevents verdict from being built on hallucinated market numbers |
 
-Both skills have single, bounded roles. They are never cross-used — calling `last30days` inside the Search Demand analyst or `deep-research` inside Wave 1 would cause token explosion with no added signal quality.
+Both skills have single, bounded roles. They are never cross-used - calling `last30days` inside the Search Demand analyst or `deep-research` inside Wave 1 would cause token explosion with no added signal quality.
 
 ---
 
@@ -188,13 +188,13 @@ Both skills have single, bounded roles. They are never cross-used — calling `l
 
 The 7-pillar scoring framework and signal taxonomy are grounded in:
 
-- **YC Startup School** (Jared Friedman, Michael Seibel, Paul Graham) — problem urgency, founder-market fit, tarpit idea detection
-- **Steve Blank's Customer Development** — earlyvangelist profile, the four-stage validation loop
-- **Rob Fitzpatrick's The Mom Test** — painkiller vs. vitamin test, commitment hierarchy
-- **Sean Ellis's PMF framework** — the 40% rule, segment-level demand testing
-- **Jobs-to-be-Done (Christensen / Ulwick)** — the Four Forces model, opportunity scoring
+- **YC Startup School** (Jared Friedman, Michael Seibel, Paul Graham) - problem urgency, founder-market fit, tarpit idea detection
+- **Steve Blank's Customer Development** - earlyvangelist profile, the four-stage validation loop
+- **Rob Fitzpatrick's The Mom Test** - painkiller vs. vitamin test, commitment hierarchy
+- **Sean Ellis's PMF framework** - the 40% rule, segment-level demand testing
+- **Jobs-to-be-Done (Christensen / Ulwick)** - the Four Forces model, opportunity scoring
 
-The skill operationalizes these frameworks as agent mandates — each analyst is looking for the specific behavioral signals (not opinions) these methodologies prescribe.
+The skill operationalizes these frameworks as agent mandates - each analyst is looking for the specific behavioral signals (not opinions) these methodologies prescribe.
 
 ---
 
@@ -216,9 +216,9 @@ ShouldIBuild/
 
 ## Related skills
 
-- [DecisionCouncil](https://github.com/Endokelp/DecisionCouncil) — adversarial debate for high-stakes decisions. Use the council once you've validated demand and need to choose between implementation paths.
-- [last30days](https://github.com/mvanhorn/last30days-skill) — standalone social signal research across Reddit, X, HN, YouTube, TikTok
-- [deep-research](https://github.com/199-biotechnologies/claude-deep-research-skill) — deep claim verification
+- [DecisionCouncil](https://github.com/Endokelp/DecisionCouncil) - adversarial debate for high-stakes decisions. Use the council once you've validated demand and need to choose between implementation paths.
+- [last30days](https://github.com/mvanhorn/last30days-skill) - standalone social signal research across Reddit, X, HN, YouTube, TikTok
+- [deep-research](https://github.com/199-biotechnologies/claude-deep-research-skill) - deep claim verification
 
 ---
 
