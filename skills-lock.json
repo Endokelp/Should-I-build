@@ -1,0 +1,19 @@
+{
+  "skills": [
+    {
+      "repository": "YOUR_GITHUB_USERNAME/ShouldIBuild",
+      "skill": "should-i-build",
+      "global": true
+    },
+    {
+      "repository": "mvanhorn/last30days-skill",
+      "skill": "last30days",
+      "global": true
+    },
+    {
+      "repository": "199-biotechnologies/claude-deep-research-skill",
+      "skill": "deep-research",
+      "global": true
+    }
+  ]
+}
