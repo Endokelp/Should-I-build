@@ -1,4 +1,4 @@
-﻿# Should I Build? � install all 3 required skills (Windows PowerShell)
+﻿# Should I Build? — install all 3 required skills (Windows PowerShell)
 $ErrorActionPreference = "Stop"
 
 Write-Host "Installing Should I Build? + companion skills..." -ForegroundColor Cyan

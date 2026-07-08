@@ -6,6 +6,37 @@ A multi-agent market validation skill for [Claude Code](https://claude.ai/code) 
 
 You get a **BUILD / CONDITIONAL / PIVOT / STOP** verdict. With receipts.
 
+## Install
+
+```bash
+npx skills add Endokelp/Should-I-build --skill should-i-build -g -y
+```
+
+Companion skills (required for full pipeline):
+
+```bash
+npx skills add mvanhorn/last30days-skill --skill last30days -g -y
+npx skills add 199-biotechnologies/claude-deep-research-skill --skill deep-research -g -y
+```
+
+Or install all three at once:
+
+**macOS / Linux:**
+```bash
+bash <(curl -s https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.sh)
+```
+
+**Windows PowerShell:**
+```powershell
+irm https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.ps1 | iex
+```
+
+**Verify:**
+```bash
+npx skills list
+# should show: should-i-build, last30days, deep-research
+```
+
 ---
 
 ## The problem this solves
@@ -85,35 +116,6 @@ Step 3  │  Orchestrator scores 7 pillars, applies kill condition, delivers ver
 ```
 
 All 6 Wave 1 agents run **in parallel**. Wall-clock time is bounded by the slowest agent, not the sum of all six.
-
----
-
-## Install
-
-One command installs all three required skills:
-
-**macOS / Linux:**
-```bash
-bash <(curl -s https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.sh)
-```
-
-**Windows PowerShell:**
-```powershell
-irm https://raw.githubusercontent.com/Endokelp/Should-I-build/main/install.ps1 | iex
-```
-
-**Manual (or if you prefer individual control):**
-```bash
-npx skills add Endokelp/Should-I-build --skill should-i-build -g -y
-npx skills add mvanhorn/last30days-skill --skill last30days -g -y
-npx skills add 199-biotechnologies/claude-deep-research-skill --skill deep-research -g -y
-```
-
-**Verify:**
-```bash
-npx skills list
-# should show: should-i-build, last30days, deep-research
-```
 
 ---
 
@@ -201,7 +203,7 @@ The skill operationalizes these frameworks as agent mandates - each analyst is l
 ## Files
 
 ```
-ShouldIBuild/
+Should-I-build/
 ├── should-i-build/
 │   ├── SKILL.md      ← orchestration procedure, triggers, wave checklist
 │   ├── AGENTS.md     ← mandates for all 6 analysts + Claim Verifier

@@ -1,5 +1,5 @@
 ﻿#!/usr/bin/env bash
-# Should I Build? � install all 3 required skills
+# Should I Build? — install all 3 required skills
 set -e
 
 echo "Installing Should I Build? + companion skills..."
