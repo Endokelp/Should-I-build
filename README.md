@@ -1,4 +1,8 @@
-﻿<h1 align="center">Should I Build?</h1>
+﻿<p align="center">
+  <img src="logo.svg" width="96" alt="Should I Build" />
+</p>
+
+<h1 align="center">Should I Build?</h1>
 
 <p align="center">
   <b>Claude will tell you to build it. This skill is not allowed to.</b><br />
@@ -161,6 +165,7 @@ Wall-clock time is the slowest agent, not the sum of six.
 Should-I-build/
 ├── SIBdemo.mp4          ← 1-minute demo (real run, sped up)
 ├── sib-hero.png
+├── logo.svg
 ├── should-i-build/
 │   ├── SKILL.md         ← procedure, triggers, wave checklist
 │   ├── AGENTS.md        ← 6 analysts + Claim Verifier
@@ -173,6 +178,8 @@ Should-I-build/
 ## Related
 
 Once demand is real and the fork is expensive, use [DecisionCouncil](https://github.com/Endokelp/DecisionCouncil). Advocate vs Skeptic, ranked #1, dissent left in.
+
+New to agent skills? Start with [Only Skill You Need](https://github.com/Endokelp/Only-Skill-You-Need). It installs the rest.
 
 Standalone companions: [last30days](https://github.com/mvanhorn/last30days-skill), [deep-research](https://github.com/199-biotechnologies/claude-deep-research-skill).
 
