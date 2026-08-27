@@ -19,20 +19,20 @@
 <p align="center">
   <a href="#install">Install</a>
   &nbsp;·&nbsp;
-  <a href="SIBdemo.mp4">Demo</a>
+  <a href="#demo">Demo</a>
   &nbsp;·&nbsp;
   <a href="#usage">Usage</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Endokelp/DecisionCouncil">Council</a>
 </p>
 
-<p align="center">
-  <a href="SIBdemo.mp4">
-    <img src="sib-hero.png" alt="Real run: leftover dining-hall swipe marketplace. Demand is real. Policy is the wall. Verdict: PIVOT." />
-  </a>
-</p>
+<div align="center">
 
-<p align="center"><a href="https://github.com/Endokelp/Should-I-build/blob/main/SIBdemo.mp4"><b>Watch the 1-minute demo</b></a> (a 9-minute run, sped up)</p>
+https://github.com/user-attachments/assets/737ebb9c-ae79-42ff-a4cc-88c50e456514
+
+</div>
+
+<p align="center" id="demo">1-minute demo (a 9-minute run, sped up)</p>
 
 Most idea validation is a vibe. You describe the product. The model hyped you. Your friends are polite. Three months later you find out nobody would pay, or the channel is dead, or five startups already died on this exact hill.
 
